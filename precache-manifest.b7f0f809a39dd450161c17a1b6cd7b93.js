@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "579fdaa723e5e1dd4faf",
-    "url": "/designportfolio/css/app.d45a0b3e.css"
+    "revision": "a858a40d34351d32597c",
+    "url": "/designportfolio/css/app.ad1e60ba.css"
   },
   {
     "revision": "3d2901ba253205f765bb",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/designportfolio/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "b3e30c228679e3ebd946b2b92ad47fbc",
+    "revision": "60217749ae9623640f1b38ab300fa7f8",
     "url": "/designportfolio/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/designportfolio/js/about.240316ab.js"
   },
   {
-    "revision": "579fdaa723e5e1dd4faf",
-    "url": "/designportfolio/js/app.67cf3242.js"
+    "revision": "a858a40d34351d32597c",
+    "url": "/designportfolio/js/app.644e6e69.js"
   },
   {
     "revision": "3d2901ba253205f765bb",
