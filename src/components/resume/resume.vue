@@ -21,7 +21,7 @@
 
       <div class="resume-content">
         <div class="resume-section">
-          <div class="resume-section-title">Description</div>
+          <!-- <div class="resume-section-title">Description</div> -->
           <div class="resume-section-content ">
             <p>
               <strong>Creative Front End Developer</strong> with
@@ -44,124 +44,167 @@
         <div class="resume-section">
           <div class="resume-section-title">Experience</div>
           <div class="resume-section-content ">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <div class="timeline-title-year">March 2020 - Present</div>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-content-subtitle">SenseHawk India</div>
+                  <div class="timeline-content-title">
+                    Front End Software Developer
+                  </div>
+                  <div class="timeline-content-desc">
+                    Currently Working
+                  </div>
+                </div>
+              </div>
 
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <div class="timeline-title-year">March 2019 - March 2020</div>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-content-subtitle">
+                    Avi Solar / EnerMAN Technologies Pvt Ltd, Bangalore
+                  </div>
+                  <div class="timeline-content-title">
+                    UI/UX Designer and Developer
+                  </div>
+                  <div class="timeline-content-desc">
+                    <p>
+                      Revamped UI of the Web interface for customers who monitor
+                      the SOLAR Power plant which was using tables into more
+                      interactive by using graph and the material card.
+                    </p>
+                    <p>
+                      Gathered requirements for two of the major products and
+                      converted into User Experience Design and developed the
+                      interface from scratch which increased the customer
+                      satisfaction by 40% to monitor Solar plants.
+                    </p>
+                    <p>
+                      Designing and developing wireframes/mockups into
+                      responsive, single page application, progressive web app
+                      and interactive features using Vue.js and Vuetify with
+                      additional open source libraries for graph and other
+                      components used in analytics.
+                    </p>
+                    <p>
+                      Introduced wireframing tools such as Figma, Illustrator
+                      and Adobe XD, and Information Architecture concept to
+                      increase team productivity.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <div class="timeline-title-year">
+                    April 2017 - November 2018
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-content-subtitle">
+                    Spin Technologies Pvt Ltd, Bangalore
+                  </div>
+                  <div class="timeline-content-title">
+                    Front End Developer
+                  </div>
+                  <div class="timeline-content-desc">
+                    <p>
+                      Understanding the customer requirements and creating the
+                      wireframes/mockups and prototype with customization or
+                      enhancement required.
+                    </p>
+                    <p>
+                      Handling various technical aspects of an application with
+                      maintenance and support.
+                    </p>
+                    <p>
+                      Collaborate with the client’s teams in collecting and
+                      understanding the requirements and customizations required
+                      in the process of creating and testing the design.
+                    </p>
+                    <p>
+                      Ensuring that the design requirements and specifications
+                      for the modules which are coded by me are tested and
+                      fulfilled before the code is delivered.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <!-- <div class="resume-section"> -->
+              <div class="columns">
+                <div class="column">
+                  <div v-for="item in keySkillData" :key="item.title">
+                    <div class="resume-section-title"> {{item.title}} </div>
+                    <div class="resume-section-content asdfasdf" v-for="skillElement in item.skills" :key="skillElement.name">
+                      <div class="level is-marginless">
+                        <div class="level-left">UX wireframes</div>
+                        <div class="level-right"> {{skillElement.value}} %</div>
+                      </div>
 
+                      <div class="resume-progress-outline">
+                        <div class="resume-progress" :style='`width:${skillElement.value}%`'></div>
+                      </div>
 
-
-
-
-
-
-
-
-
-
-              
-
-<div class="timeline">
-	
-	<div class="timeline-item" >
-    <div class="timeline-title">
-      <div class="timeline-title-year">March 2020 - Present</div>
-    </div>
-    <div class="timeline-content">
-      <div class="timeline-content-subtitle">SenseHawk India</div>
-      <div class="timeline-content-title">
-        Front End Software Developer
-      </div>
-      <div class="timeline-content-desc">
-        Currently Working
-      </div>
-    </div>
-	</div>
-
-
-
-  <div class="timeline-item" >
-    <div class="timeline-title">
-      <div class="timeline-title-year">March 2019 - March 2020</div>
-      
-    </div>
-    <div class="timeline-content">
-      <div class="timeline-content-subtitle">Avi Solar / EnerMAN Technologies Pvt Ltd, Bangalore</div>
-      <div class="timeline-content-title">
-        UI/UX Designer and Developer
-      </div>
-      <div class="timeline-content-desc">
-        <p>
-          Revamped UI of the Web interface for customers who monitor the SOLAR Power plant which was using tables into
-          more interactive by using graph and the material card.
-        </p>
-        <p>
-          Gathered requirements for two of the major products and converted into User Experience Design and developed the interface from scratch which increased the customer satisfaction by 40% to monitor Solar plants.
-        </p>
-        <p>
-          Designing and developing wireframes/mockups into responsive, single page application, progressive web app and interactive features using Vue.js and Vuetify with additional open source libraries for graph and other components used in analytics.
-        </p>
-        <p>
-          Introduced wireframing tools such as Figma, Illustrator and Adobe XD, and Information Architecture concept to increase team productivity.
-        </p>
-      </div>
-    </div>
-	</div>
-
-
-
-
-
-
-  <div class="timeline-item" >
-    <div class="timeline-title">
-      <div class="timeline-title-year">April 2017 - November 2018</div>
-      
-    </div>
-    <div class="timeline-content">
-      <div class="timeline-content-subtitle">Spin Technologies Pvt Ltd, Bangalore</div>
-      <div class="timeline-content-title">
-        Front End Developer
-      </div>
-      <div class="timeline-content-desc">
-        
-        <p>Understanding the customer requirements and creating the wireframes/mockups  and prototype with customization or enhancement required.</p>
-        <p>Handling various technical aspects of an application with maintenance and support.</p>
-        <p>Collaborate with the client’s teams in collecting and understanding the requirements and customizations required in the process of creating and testing the design. </p>
-        <p>Ensuring that the design requirements and specifications for the modules which are coded by me are tested and fulfilled before the code is delivered.</p>
-      </div>
-    </div>
-	</div>
-
-
-
-  
-	
-  
-
-
-	
-</div>
-
-
-
-
-
-
-
-
-
-
+                      <!-- <progress class="progress resume-progress is-small is-primary" value="98" max="100">15%</progress> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="resume-section-title">Description</div>
+                  <div class="resume-section-content ">
+                    <p>
+                      <strong>Creative Front End Developer</strong> with
+                      <strong>2.5 years of experience</strong> in
+                      <strong
+                        >designing, developing and managing complex web
+                        applications</strong
+                      >
+                      by using <strong>open source libraries</strong> and
+                      frameworks. Specialized in
+                      <strong
+                        >admin application, responsive design, improve UI and
+                        UX</strong
+                      >
+                      using
+                      <strong>Vue.js, Vuetify and Bootstrap.</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <!-- </div> -->
           </div>
         </div>
-
-
-
-
-
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      keySkillData: [
+        {
+        title: "Key Skills",
+        skills: [
+          { name: "UX Wireframes", value: 35 },
+          { name: "UX Wireframes", value: 20 },
+          { name: "UX Wireframes", value: 98 },
+          { name: "UX Wireframes", value: 98 },
+        ],
+      }
+      ],
+    };
+  },
+};
+</script>
 
 <style lang="scss">
 @import "@/assets/lib/style/core/main/resume.scss";
@@ -244,7 +287,7 @@
     }
 
     &-content {
-      &>p {
+      & > p {
         color: #d5d5d5;
         font-size: 14px;
         max-width: 70%;
@@ -257,44 +300,34 @@
   }
 }
 
+.asdfasdf:not(:first-child){
+  margin: 20px 0 0 0;
+}
 .is-dark-navbar {
   color: $white;
   background-color: $bg-dark;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .timeline {
-	max-width: 1024px;
-	width: 90%;
-	margin: 0 auto;
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 // ----------------  THE FONTS
 
-$border-color: rgba(white, .3);
+$border-color: rgba(white, 0.3);
 
 .timeline-item {
-	padding: 1.0em 2em 2em;
-	position: relative;
-	color: rgba(white, .7);
+  padding: 1em 2em 2em;
+  position: relative;
+  color: rgba(white, 0.7);
   border-left: 2px solid $border-color;
-  
+
   .timeline-title {
     display: flex;
     align-items: center;
-    &-year{
+    &-year {
       font-size: 14px;
       display: inline-block;
       color: #d5d5d5;
@@ -307,129 +340,123 @@ $border-color: rgba(white, .3);
       position: relative;
       left: -50px;
     }
-
-
-
   }
 
   .timeline-content {
     padding: 15px 0 15px 30px;
 
-    &-title{
+    &-title {
       color: #f5f5f5;
       font-size: 18px;
       font-weight: 600;
+      padding: 20px 0;
     }
-    &-subtitle{
+    &-subtitle {
       color: #aaaaaa;
     }
   }
-	
-	// p {
-	// 	font-size: 1rem;
-	// }
-	
-	// &::before {
-	// 	content: '';
-	// 	position: absolute;
-	// 	left: 2em;
-	// 	font-weight: bold;
-	// 	top: 1em;
-	// 	display: none;
-	// 	font-family: 'Roboto', sans-serif;
-	// 	font-weight: 700;
-	// 	font-size: .785rem;
-	// }
 
-	// &::after {
-	// 	width: 10px;
-	// 	height: 10px;
-	// 	display: none;
-	// 	top: 1em;
-	// 	position: absolute;
-	// 	left: -6px;
-	// 	border-radius: 10px;
-	// 	content: '';
-	// 	border: 2px solid $border-color;
-	// 	background: white;
-	// }
+  // p {
+  // 	font-size: 1rem;
+  // }
 
-	&:last-child {
-		border-image: linear-gradient(
-			to bottom,
-			$border-color 60%,
-			rgba($border-color, 0)) 1 100%
-		;
-	}
+  // &::before {
+  // 	content: '';
+  // 	position: absolute;
+  // 	left: 2em;
+  // 	font-weight: bold;
+  // 	top: 1em;
+  // 	display: none;
+  // 	font-family: 'Roboto', sans-serif;
+  // 	font-weight: 700;
+  // 	font-size: .785rem;
+  // }
+
+  // &::after {
+  // 	width: 10px;
+  // 	height: 10px;
+  // 	display: none;
+  // 	top: 1em;
+  // 	position: absolute;
+  // 	left: -6px;
+  // 	border-radius: 10px;
+  // 	content: '';
+  // 	border: 2px solid $border-color;
+  // 	background: white;
+  // }
+
+  &:last-child {
+    border-image: linear-gradient(
+        to bottom,
+        $border-color 60%,
+        rgba($border-color, 0)
+      )
+      1 100%;
+  }
 }
 
+// .resume-progress {
+//   background-color: #007ced !important;
+// }
 
+.resume-progress-outline {
+  border: 4px solid #444444;
+  padding: 5px;
+  border-radius: 13px;
 
-
-
-
-
-
-
-
+  .resume-progress {
+    background-color: $blue-primary;
+    height: 5px;
+  }
+}
 
 @media screen and (max-width: 768px) {
-  
-  
-
   .timeline {
-	max-width: 1024px;
-	width: 100%;
-	margin: 0 auto;
-}
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
 
-// ----------------  THE FONTS
+  // ----------------  THE FONTS
 
-$border-color: rgba(white, .3);
+  $border-color: rgba(white, 0.3);
 
-.timeline-item {
-	padding: 1.0em 2em 2em;
-	position: relative;
-	color: rgba(white, .7);
-  border-left: 2px solid $border-color;
-  
-  .timeline-title {
-    display: flex;
-    &-year{
-      font-size: 14px;
-    display: inline-block;
-    color: #d5d5d5;
-    font-weight: 600;
-    border: 2px solid $blue-primary;
-    padding: 0px 10px;
-    line-height: 25px;
-    border-radius: 30px;
-    background-color: #000;
+  .timeline-item {
+    padding: 1em 2em 2em;
     position: relative;
-    left: -50px;
+    color: rgba(white, 0.7);
+    border-left: 2px solid $border-color;
+
+    .timeline-title {
+      display: flex;
+      &-year {
+        font-size: 14px;
+        display: inline-block;
+        color: #d5d5d5;
+        font-weight: 600;
+        border: 2px solid $blue-primary;
+        padding: 0px 10px;
+        line-height: 25px;
+        border-radius: 30px;
+        background-color: #000;
+        position: relative;
+        left: -50px;
+      }
+    }
+
+    .timeline-content {
+      padding: 20px 0;
+    }
+
+    &:last-child {
+      border-image: linear-gradient(
+          to bottom,
+          $border-color 60%,
+          rgba($border-color, 0)
+        )
+        1 100%;
     }
   }
-
-  .timeline-content {
-    padding: 20px 0;
-  }
-
-	&:last-child {
-		border-image: linear-gradient(
-			to bottom,
-			$border-color 60%,
-			rgba($border-color, 0)) 1 100%
-		;
-	}
-}
-
-
-
-
-
-
-
-
 
   .resume-card {
     color: #fff;
